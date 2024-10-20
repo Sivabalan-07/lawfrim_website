@@ -1,0 +1,267 @@
+#check {
+    display: none;
+}
+
+.checkbutton {
+    display: none;
+    color: white;
+    font-size: larger;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 6px;
+    margin-right: 1rem;
+}
+
+@media (max-width:576px) {
+    .link {
+        height: 300px;
+        width: 100%;
+        background-color: #bebebe;
+        position: absolute;
+        flex-direction: column;
+        top: 90px;
+        display: none;
+    }
+
+    .link li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link a:hover {
+        background-color: #58614e;
+    }
+
+    .checkbutton {
+        display: block;
+    }
+
+    #check:checked~.link {
+        display: flex;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .box {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .frame {
+        margin-bottom: 20px;
+    }
+
+    .content1 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .heading1 {
+        padding-left: 92px;
+    }
+
+    .aboutimg {
+        height: 100%;
+    }
+
+    .aboutimg img {
+        width: 300px;
+    }
+
+    .aboutcontent {
+        padding: 20px;
+    }
+
+    .herosection {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .lawyersection {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .man img {
+        width: 100px;
+    }
+
+    .section2 .man {
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .cardsection {
+        flex-direction: column;
+        width: 100%;
+        /* text-align: center; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardhead1 img {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        /* width: 150px; */
+        padding-top: 10px;
+    }
+
+    .card1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .contactsection {
+        flex-direction: column;
+    }
+
+
+    .foot {
+        flex-direction: column;
+        padding-top: 5px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .link {
+        height: 300px;
+        width: 100%;
+        background-color: #bebebe;
+        position: absolute;
+        flex-direction: column;
+        top: 90px;
+        display: none;
+    }
+
+    .link li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link a:hover {
+        background-color: #58614e;
+    }
+
+    .checkbutton {
+        display: block;
+    }
+
+    #check:checked~.link {
+        display: flex;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .box {
+        padding: 0;
+        text-align: center;
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        margin-bottom: 10px;
+    }
+
+    .frame {
+        margin-top: 10px;
+    }
+
+    .content1 {
+        padding: 20px;
+        text-align: center;
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .foot {
+        flex-direction: column;
+        padding-top: 5px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:991px) {
+    .link {
+        height: 300px;
+        width: 100%;
+        background-color: #bebebe;
+        position: absolute;
+        flex-direction: column;
+        top: 90px;
+        display: none;
+    }
+
+    .link li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link a:hover {
+        background-color: #58614e;
+    }
+
+    .checkbutton {
+        display: block;
+    }
+
+    #check:checked~.link {
+        display: flex;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .box {
+        padding: 0;
+        text-align: center;
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        margin-bottom: 10px;
+    }
+
+    .frame {
+        margin-top: 10px;
+    }
+
+    .content1 {
+        padding: 20px;
+        text-align: center;
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    }
+
+    .foot {
+        flex-direction: column;
+        padding-top: 5px;
+        width: 100%;
+    }
+}
